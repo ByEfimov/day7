@@ -1,0 +1,113 @@
+@media (max-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1260px;
+    padding: 0 20px;
+  }
+  .description .description__body {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .description .description__body .title {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+  }
+  .description .description__body .title br {
+    display: none;
+  }
+  .description .description__body .desc {
+    max-width: 100%;
+  }
+  .contact .contact__body {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .contact .contact__body .contact-text {
+    justify-content: center;
+  }
+}
+@media (max-width: 610px) {
+  .description .description__body .title a {
+    display: none;
+  }
+  .testimonials .testimonials__body .persons {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+@media (max-width: 480px) {
+  .header__logo {
+    width: 82px;
+    height: 48px;
+  }
+  .main .header .header__button-burger .button {
+    width: 24px;
+    height: 24px;
+  }
+  .main .header .header__button-call {
+    width: 24px;
+    height: 24px;
+  }
+  .gallery .view {
+    width: 100%;
+  }
+  .description {
+    margin-top: 64px;
+  }
+  .main .main-text {
+    color: #fff;
+    font-size: 46px;
+    font-family: Roboto;
+    margin-top: 440px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+  .gallery .container .gallery__body .line .images .image1:first-child {
+    width: 50%;
+  }
+  .gallery .container .gallery__body .line .images .image1:last-child {
+    width: 50%;
+  }
+  .gallery .container .gallery__body .line .images div {
+    height: 200px;
+    background-size: cover;
+  }
+  .gallery .container .gallery__body .line .images .image3:first-child {
+    width: 50%;
+  }
+  .gallery .container .gallery__body .line .images .image3:last-child {
+    width: 50%;
+  }
+  .contact .contact__body .contact-text {
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .contact .contact__body .contact-text .left {
+    width: 100%;
+  }
+  .contact .contact__body .contact-text .right {
+    width: 100%;
+  }
+  .contact .contact__body .contact-text address br:last-child {
+    display: none;
+  }
+  footer {
+    margin-top: 64px;
+    height: 206px;
+  }
+  footer .logo {
+    width: 82px;
+    height: 48px;
+  }
+}
+@media (max-width: 320px) {
+  .gallery .container .gallery__body .line .images div {
+    height: 127px;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=adaptive.css.map */

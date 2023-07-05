@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/null.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptive.css" />
     <title>day7</title>
   </head>
   <body>
-    <section class="main">
+    <section class="main" id="main">
       <div class="container">
         <div class="main__body">
           <header class="header">
@@ -39,11 +40,13 @@
                     </div>
                   </div>
                   <div class="links">
-                    <div class="link"><a href="">Home</a></div>
-                    <div class="link"><a href="">About Us</a></div>
-                    <div class="link"><a href="">gallery</a></div>
-                    <div class="link"><a href="">testimonials</a></div>
-                    <div class="link"><a href="">Contacts</a></div>
+                    <div class="link"><a href="#main">Home</a></div>
+                    <div class="link"><a href="#about">About Us</a></div>
+                    <div class="link"><a href="#gallery">gallery</a></div>
+                    <div class="link">
+                      <a href="#testimonials">testimonials</a>
+                    </div>
+                    <div class="link"><a href="#Contacts">Contacts</a></div>
                   </div>
                 </div>
               </div>
@@ -66,7 +69,7 @@
       </div>
     </section>
 
-    <section class="description">
+    <section class="description" id="about">
       <div class="container">
         <div class="description__body">
           <div class="title">
@@ -95,7 +98,7 @@
       </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <div class="container">
         <div class="gallery__body">
           <div class="title">
@@ -134,7 +137,7 @@
       </div>
     </section>
 
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
       <div class="container">
         <div class="testimonials__body">
           <div class="title">
@@ -179,7 +182,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="Contacts">
       <div class="container">
         <div class="title">
           Contact us
